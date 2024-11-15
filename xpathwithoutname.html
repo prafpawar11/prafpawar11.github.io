@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Web Page</title>
+    <style>
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main Container */
+        .main {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        /* Child Div Styling */
+        .a1, .a2, .a3, .a4 {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            background: #f9fafc;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* Headings */
+        h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.25rem;
+        }
+
+        /* Labels and Inputs */
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input[type="text"],
+        select,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        /* Buttons */
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button[type="button"] {
+            background-color: #6c757d;
+        }
+
+        button[type="button"]:hover {
+            background-color: #5a6268;
+        }
+
+        /* Links */
+        .b6 a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .b6 a:hover {
+            color: #0056b3;
+        }
+
+        /* Span Styling */
+        .b1, .b2, .b3, .b4, .b5, .b6 {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- First Child Div -->
+        <div class="a1">
+            <h3>Personal Information</h3>
+            <span class="b1">
+                <label>First Name:</label>
+                <input type="text" placeholder="Enter your first name">
+                <label>Middle Name:</label>
+                <input type="text" placeholder="Enter your middle name">
+                <label>Last Name:</label>
+                <input type="text" placeholder="Enter your last name">
+            </span>
+            <span class="b2">
+                <label>City:</label>
+                <input type="text" placeholder="Enter your city">
+                <label>State:</label>
+                <input type="text" placeholder="Enter your state">
+                <label>Country:</label>
+                <select>
+                    <option value="">Select your country</option>
+                    <option value="USA">USA</option>
+                    <option value="India">India</option>
+                    <option value="UK">UK</option>
+                    <option value="Australia">Australia</option>
+                </select>
+            </span>
+            <span class="b3">
+                <label>Degree:</label>
+                <input type="text" placeholder="Enter your degree">
+                <label>Branch:</label>
+                <input type="text" placeholder="Enter your branch">
+                <label>University:</label>
+                <input type="text" placeholder="Enter your university">
+            </span>
+        </div>
+
+        <!-- Second Child Div -->
+        <div class="a2">
+            <h3>Project Information</h3>
+            <span class="b4">
+                <label>Project Name:</label>
+                <input type="text" placeholder="Enter your project name">
+                <label>Team Name:</label>
+                <input type="text" placeholder="Enter your team name">
+            </span>
+            <span class="b5">
+                <label>Domain Name:</label>
+                <input type="text" placeholder="Enter your domain name">
+            </span>
+        </div>
+
+        <!-- Third Child Div -->
+        <div class="a3">
+            <h3>Agreement and Actions</h3>
+            <span class="b4">
+                <label>
+                    <input type="checkbox"> I agree to the terms and conditions
+                </label>
+            </span>
+            <span class="b5">
+                <button type="submit">Submit</button>
+                <button type="button">Cancel</button>
+            </span>
+        </div>
+
+        <!-- Fourth Child Div -->
+        <div class="a4">
+            <h3>Important Links</h3>
+            <span class="b6">
+                <a href="https://www.google.com" target="_blank">Google</a>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.amazon.com" target="_blank">Amazon</a>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
